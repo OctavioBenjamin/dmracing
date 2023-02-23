@@ -21,38 +21,14 @@ header {
 
 }
 
-header h1 {
-  padding: 10px;
-  width: 20%;
-}
-
-
-.menu-responsive {
-  font-size: 20px;
-  float: left;
-  line-height: 60px;
-  margin-right: 15px;
-  cursor: pointer;
-  display: none;
-}
 
 .App {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
-.nav-principal {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  font-size: 15px;
-}
 
-.nav-principal a {
-  padding: 10px;
-  color: #fff;
-  text-decoration: none;
-}
 
 /* Imagen de presentacion al inicio */
 /*
@@ -93,7 +69,7 @@ header h1 {
   width: 100%;
 } */
 
-.presentacion {
+/* .presentacion {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -102,9 +78,9 @@ header h1 {
   height: 350px;
 
   background-image: url("./images/welcom_image.jpg");
-}
+} */
 
-.texto-presentacion {
+.presentacion {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -117,12 +93,12 @@ header h1 {
 
   /* Efecto Glass */
   /* From https://css.glass */
-  background: rgba(255, 255, 255, 0.04);
+  /* background: rgba(255, 255, 255, 0.04);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(6px);
   -webkit-backdrop-filter: blur(6px);
-  border: 1px solid rgba(255, 255, 255, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.3); */
 }
 /* ------------------------------------------------- */
 

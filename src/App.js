@@ -2,28 +2,29 @@ import './App.css';
 import Trabajo from "./components/Trabajo";
 import Formulario from "./components/Formulario";
 import InfoDeContacto from './components/InfoDeContacto';
-import Navbar from './components/NavBar';
+import NavBar from './components/NavBar';
+
 import Footer from './components/Footer';
 
 function App() {
   return (
     <div className="App">
-      
-
-      <Navbar/>
+      <header className='main-header'>
+        <NavBar/>
+      </header>
 
       <div className="presentacion">
-        <div className="texto-presentacion">
-          <h1>
+          <h1 id="inicio">
             ¡Bienvenidos al taller mecánico de Martín y Damián!
           </h1>
           <p>
             Martín y Damián tienen años de experiencia en el mundo de la mecánica, lo que los convierte en unos verdaderos profesionales. Su conocimiento y habilidad en el diagnóstico y reparación de vehículos los han llevado a ser reconocidos en la comunidad como uno de los talleres más confiables y eficientes.
           </p>
-        </div>
+        {/* <div className="texto-presentacion">
+        </div> */}
       </div>
 
-      <div className="trabajos">
+      <div className="trabajos" id="#trabajos">
         <h1>
         Algunos de los servicios que ofrecemos:
         </h1>
@@ -35,7 +36,7 @@ function App() {
         </div>
       </div>
 
-      <div className="sobre-nosotros">
+      <div className="sobre-nosotros" id='sobre-nosotros'>
         <h1 className='titulo-sobre-nosotros'>
           Sobre Nosotros
         </h1>
@@ -45,7 +46,7 @@ function App() {
         <p className='texto-sobre-nosotros'>Con años de experiencia trabajando con una variedad de vehículos y clientes, desde propietarios de automóviles individuales hasta flotas empresariales, nos enorgullece brindar el mismo nivel de servicio excepcional a cada uno de nuestros clientes. Valoramos la confianza que cada cliente deposita en nosotros al dejarnos cuidar de su vehículo, y trabajamos duro para ganar y mantener esa confianza en cada trabajo que realizamos.</p>
       </div>
 
-      <div className="contacto">
+      <div className="contacto" id='contacto'>
         <div className="contenedor-formulario">
           <h1>Contate con nosotros.</h1>
           <p>Tu consulta no nos molesta.</p>
